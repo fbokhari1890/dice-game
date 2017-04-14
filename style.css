@@ -1,3 +1,136 @@
-body {
-  background-color: black;
+.roll{ 
+    background-color: blue; 
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 26px;
+    display: block;
+    border-radius: 10px;
+    margin: 20px 10px 10px 170px;
 }
+
+.roll:hover {background-color: #3e8e41}
+
+.dice.roll{ 
+    background-color: blue; 
+    border: none;
+    color: white;
+    padding: 25px 60px;
+/*     margin:  20px 50%; */
+}
+  
+.dice{
+  height: 600px;
+  width:  600px;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+
+.die {
+    height: 500px;
+    width:  600px;
+    border: 5px black solid;
+    border-radius: 5px;
+    background-color: white;
+    float: left;
+    text-align:center; 
+    font-size: 40px; 
+}
+
+.dice:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+#dice1{
+  height: 100px;
+  width:  100px;
+  background-color:red;
+  float: left;
+/*   text-align:center; */
+/*   font-size: 40px;  */
+  margin: 10px 20px 10px 10px;
+}
+
+
+
+#dice2{
+  height: 100px;
+  width:  100px;
+  background-color:green;
+  float: left;
+  margin: 10px 20px 10px 10px;
+
+}
+
+#dice3{
+  height: 100px;
+  width:  100px;
+  background-color:blue;
+  float: left;
+  margin: 10px 20px 10px 10px;
+
+}
+
+.scoreboard {
+   height: 160px;
+   width : 230px;
+   background-color: pink;
+   color: black;
+   margin-top: -450px;
+   margin-left: 100px;
+   text-align: center;
+   text-decoration: underline;
+   font-size: 24px;
+   border: 5px solid black;
+   border-radius: 20px;
+  float: left;
+}
+
+.playerScore {
+   background-color: white;
+   color: blue;
+   font-size: 20px;  
+   text-align: center;
+   display: block;
+   
+/*    width:  100px; */
+/*    height: 100px;
+ */
+}
+
+.playerScore:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#player1{
+   float:left;
+   height: 100px;
+   width: 85px;
+   border: 5px black;
+   border-style: inset;
+   margin: 10px 5px 10px;
+/*    font-size: 20px;  */
+}
+
+#player2{
+  float:right;
+   height: 100px;
+  width:85px;
+   border: 5px black;
+   border-style: inset;
+   margin: 10px 7px 10px;
+/*    font-size: 20px;  */
+}
+
+
+
+
+
+
+

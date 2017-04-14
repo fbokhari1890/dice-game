@@ -1,1 +1,2 @@
-console.log('js is connected');
+console.log('console is ready');
+
