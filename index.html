@@ -15,6 +15,16 @@
 
   </head>
 <body>
+<div class = rules> 
+  
+ <h2>Rules</h2>
+
+ <p> <b>Automatic Win: </b> When a player rolls a 4-5-6 he will automatically wins.</p>
+
+ <p><b>Automatic Loss:</b>When a player rolls a 1-2-3 he will automatically loses.</p>
+ <p><b>Triples:</b> When a player rolls the same number on all dice (ex.5-5-5). Higher triples beat lower trips, so 4-4-4 is better than 3-3-3.</p>
+</div>
+
 
 <button type="button" class='roll'>ROLL</button>
 
@@ -25,13 +35,22 @@
 </section>
 
 <section class = 'scoreboard'> SCOREBOARD
-<div class = 'playerScore' id = 'player1'> PlAYER 1</div>
+<div class = 'playerScore' id = 'player1'> 
+  PlAYER 1<br/>
+  <h1 id="p1status" style="clear:left;">R: </h1>
+
+</div>
 <div class = 'playerScore' id = 'player2'>
-  PlAYER 2</div>  
+  PlAYER 2 <br/>
+ <h1 id="p2status" style="clear:left;">R: </h1>
+
+  
+</div>  
 </section>
 
+
 <body>
-<script src="./main.js"></script>
+<script src="./game.js"></script>
 </body>  
 </html>
 
